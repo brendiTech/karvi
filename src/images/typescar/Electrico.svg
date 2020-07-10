@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106.667" height="56.594" viewBox="0 0 106.667 56.594">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.182" y1="-0.092" x2="0.31" y2="0.816" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a6ffaf"/>
+      <stop offset="1" stop-color="#008aff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-1.278" y1="-0.143" x2="-0.603" y2="0.818" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-0.683" y1="-6.514" x2="-0.249" y2="0.57" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-0.392" y1="-4.339" x2="-0.046" y2="1.411" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="-0.316" y1="-3.463" x2="0.02" y2="2.286" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="-0.804" y1="-4.606" x2="-0.235" y2="4.618" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="-2.053" y1="-7.716" x2="-0.858" y2="13.16" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="-0.76" y1="-9.594" x2="-0.302" y2="0.342" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="-0.592" y1="-7.782" x2="-0.174" y2="1.683" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="-0.696" y1="-5.872" x2="-0.21" y2="2.963" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="-1.017" y1="-4.715" x2="-0.355" y2="4.746" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-12" x1="-2.297" y1="-5.91" x2="-1.335" y2="8.234" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Grupo_9658" data-name="Grupo 9658" transform="translate(-1170 -2910.75)">
+    <path id="Trazado_7018" data-name="Trazado 7018" d="M452.834,532.279h37.43l21.183-1.645,9.255-.617s4.113-1.851,4.525-5.553V522.2l-2.057-2.469-.617-2.879v-3.7h-4.731l-22.211-7.814h-25.09s-9.872,3.7-12.134,4.729-6.993,4.115-10.9,4.526-12.751,1.234-13.573,1.439a10.137,10.137,0,0,0-5.348,3.908,8.061,8.061,0,0,0-1.851,4.935v5.759l9.461,1.85Z" transform="translate(747.666 2423.878)" fill="#fff" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Trazado_7019" data-name="Trazado 7019" d="M529,539.334c0,2.282-23.878,4.132-53.335,4.132s-53.332-1.85-53.332-4.132,23.879-4.131,53.332-4.131S529,537.053,529,539.334Z" transform="translate(747.666 2423.878)" fill="#e4e8ed"/>
+    <line id="Línea_1696" data-name="Línea 1696" y1="0.916" x2="40.863" transform="translate(1205.807 2937.722)" fill="none" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Línea_1697" data-name="Línea 1697" x2="5.838" transform="translate(1236.367 2939.76)" fill="none" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="Elipse_1496" data-name="Elipse 1496" cx="7.387" cy="7.387" r="7.387" transform="translate(1187.779 2948.492)" stroke-width="1" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+    <path id="Trazado_7020" data-name="Trazado 7020" d="M452.972,532a5.471,5.471,0,1,1-5.472-5.472A5.473,5.473,0,0,1,452.972,532Z" transform="translate(747.666 2423.878)" fill="none" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="Elipse_1497" data-name="Elipse 1497" cx="7.387" cy="7.387" r="7.387" transform="translate(1245.279 2948.492)" stroke-width="1" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+    <path id="Trazado_7021" data-name="Trazado 7021" d="M510.472,532A5.471,5.471,0,1,1,505,526.529,5.473,5.473,0,0,1,510.472,532Z" transform="translate(747.666 2423.878)" fill="none" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Grupo_9128" data-name="Grupo 9128" transform="translate(747.666 2423.878)">
+      <path id="Trazado_7022" data-name="Trazado 7022" d="M476.922,512.76s-7-8.122-1.46-17.709a14.607,14.607,0,0,0,2.22-7.929s14.375,14.953,1.27,25.455C478.952,512.577,478.028,514.053,476.922,512.76Z" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient)"/>
+      <path id="Trazado_7023" data-name="Trazado 7023" d="M477.825,512.989s4.5-10.117.381-24.733" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-2)"/>
+      <line id="Línea_1698" data-name="Línea 1698" x1="3.29" y1="3.356" transform="translate(475.436 506.7)" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-3)"/>
+      <line id="Línea_1699" data-name="Línea 1699" x1="4.127" y1="4.135" transform="translate(475.319 502.747)" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-4)"/>
+      <line id="Línea_1700" data-name="Línea 1700" x1="4.25" y1="4.137" transform="translate(475.62 499.093)" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-5)"/>
+      <line id="Línea_1701" data-name="Línea 1701" x1="2.514" y1="2.578" transform="translate(477.36 496.579)" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-6)"/>
+      <line id="Línea_1702" data-name="Línea 1702" x1="1.195" y1="1.139" transform="translate(478.202 493.467)" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-7)"/>
+      <line id="Línea_1703" data-name="Línea 1703" y1="2.393" x2="3.116" transform="translate(478.726 507.603)" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-8)"/>
+      <line id="Línea_1704" data-name="Línea 1704" y1="2.513" x2="3.416" transform="translate(479.447 504.131)" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-9)"/>
+      <line id="Línea_1705" data-name="Línea 1705" y1="2.691" x2="2.938" transform="translate(479.869 500.357)" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-10)"/>
+      <line id="Línea_1706" data-name="Línea 1706" y1="2.515" x2="2.158" transform="translate(480.054 496.404)" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-11)"/>
+      <line id="Línea_1707" data-name="Línea 1707" y1="1.193" x2="1.055" transform="translate(479.579 493.292)" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" fill="url(#linear-gradient-12)"/>
+    </g>
+  </g>
+</svg>

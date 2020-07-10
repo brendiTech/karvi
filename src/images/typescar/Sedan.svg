@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="106.667" height="46.947" viewBox="0 0 106.667 46.947">
+  <g id="Grupo_9654" data-name="Grupo 9654" transform="translate(-555.332 -2920)">
+    <path id="Trazado_6978" data-name="Trazado 6978" d="M172,430c0,2.282-23.878,4.132-53.334,4.132S65.333,432.281,65.333,430s23.879-4.131,53.333-4.131S172,427.718,172,430Z" transform="translate(489.999 2532.815)" fill="#e4e8ed"/>
+    <path id="Trazado_6995" data-name="Trazado 6995" d="M111.55,389.351h-2.078v-2.166h-1v2.166h-2.255v1h2.255v2.166h1v-2.166h2.078Z" transform="translate(489.999 2532.815)" fill="#e65b7a"/>
+    <rect id="Rectángulo_5235" data-name="Rectángulo 5235" width="1.22" height="1.447" transform="translate(605.472 2924.5)" fill="#3b5b7a"/>
+    <rect id="Rectángulo_5236" data-name="Rectángulo 5236" width="1.22" height="1.447" transform="translate(580.259 2932.396)" fill="#3b5b7a"/>
+    <rect id="Rectángulo_5237" data-name="Rectángulo 5237" width="1.22" height="1.448" transform="translate(639.173 2926.833)" fill="#3b5b7a"/>
+    <rect id="Rectángulo_5238" data-name="Rectángulo 5238" width="1.22" height="1.447" transform="translate(613.528 2923.109)" fill="#e4e8ed"/>
+    <rect id="Rectángulo_5239" data-name="Rectángulo 5239" width="1.22" height="1.448" transform="translate(582.901 2936.988)" fill="#e4e8ed"/>
+    <rect id="Rectángulo_5240" data-name="Rectángulo 5240" width="1.22" height="1.448" transform="translate(589.099 2929.683)" fill="#e4e8ed"/>
+    <line id="Línea_1641" data-name="Línea 1641" x1="4.096" y1="2.877" transform="translate(581.739 2930.186)" fill="none" stroke="#e4e8ed" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Línea_1642" data-name="Línea 1642" y1="4.096" x2="2.878" transform="translate(625.163 2925.516)" fill="none" stroke="#e4e8ed" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_6996" data-name="Trazado 6996" d="M132.763,390.491l-1.47,1.47-1.532-1.532-.707.707,1.532,1.532-1.595,1.594.707.707,1.595-1.594,1.532,1.531.707-.707L132,392.668l1.47-1.47Z" transform="translate(489.999 2532.815)" fill="#00b4ff"/>
+    <path id="Trazado_7005" data-name="Trazado 7005" d="M79.469,425.142l-7.079-.462a3.4,3.4,0,0,1-1.231-2.77c.154-1.692,0-6.155,0-6.155a13.271,13.271,0,0,1,2.308-3.694c1.539-1.692,2.924-2,6-2.616S94.4,406.829,94.4,406.829l19.7-8.464h26.93l16.928,6.925h8.156v4.77a7.806,7.806,0,0,1,1.231,3.694c0,1.847,2.154-1.077,1.847,5.078s-5.695,4.771-6.464,4.925-7.694,1.23-7.694,1.23H97.012Z" transform="translate(489.999 2532.815)" fill="#fff" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Línea_1663" data-name="Línea 1663" x2="46.465" transform="translate(591.677 2940.018)" fill="none" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Línea_1664" data-name="Línea 1664" x2="4.79" transform="translate(603.651 2942.892)" fill="none" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Línea_1665" data-name="Línea 1665" x2="5.269" transform="translate(626.644 2942.412)" fill="none" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <circle id="Elipse_1488" data-name="Elipse 1488" cx="7.387" cy="7.387" r="7.387" transform="translate(573.558 2949.758)" stroke-width="1" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+    <path id="Trazado_7006" data-name="Trazado 7006" d="M96.416,424.329a5.471,5.471,0,1,1-5.471-5.472A5.471,5.471,0,0,1,96.416,424.329Z" transform="translate(489.999 2532.815)" fill="none" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Grupo_9110" data-name="Grupo 9110" transform="translate(489.999 2532.815)">
+      <circle id="Elipse_1489" data-name="Elipse 1489" cx="7.387" cy="7.387" r="7.387" transform="translate(139.124 416.942)" stroke-width="1" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" fill="#fff"/>
+      <path id="Trazado_7007" data-name="Trazado 7007" d="M151.982,424.329a5.471,5.471,0,1,1-5.471-5.472A5.471,5.471,0,0,1,151.982,424.329Z" fill="none" stroke="#3b5b7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
