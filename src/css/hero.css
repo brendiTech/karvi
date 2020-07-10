@@ -1,0 +1,64 @@
+@media (max-width: 1365px) {
+  body {
+    font-family: 'proxima-nova';
+    color: #07152B; }
+    body h1 {
+      font-size: 28px;
+      text-align: left;
+      letter-spacing: 0px; }
+    body h2 {
+      font-size: 19px;
+      text-align: center;
+      font-weight: 700; }
+    body h3 {
+      font-size: 18px; }
+    body p {
+      letter-spacing: 0px;
+      text-align: center;
+      font-weight: lighter;
+      font-size: 14px;
+      margin-bottom: 35px; }
+    body .ilustracion, body .foto {
+      width: 100%; }
+    body .btn-blue, body .btn-white {
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 3px;
+      outline: none;
+      width: 100%;
+      height: 40px;
+      margin-bottom: 16px; }
+    body .btn-blue {
+      background: #0052CB 0% 0% no-repeat padding-box;
+      color: #FFFFFF;
+      border: none; }
+    body .btn-white {
+      background-color: #FFFFFF;
+      color: #0052CB;
+      border: 1px solid #0052CB; }
+    body .hero, body .novo, body .usado, body .verificar, body .encontremarca, body .encontretipo, body .carrosvenda, body .information {
+      margin: 20px; }
+    body .hero .texts {
+      margin-right: 10px; }
+    body .backcolor {
+      background-color: #F1F5FC; }
+    body .novo .ilustracion {
+      padding: 60px 0px 20px 0px; }
+    body .novo .content {
+      padding-bottom: 10px; }
+    body .usado .ilustracion {
+      margin-top: 10px; }
+    body .image-slide {
+      height: 100%;
+      width: 100%;
+      transition: background-image .1s ease-in-out; }
+    body .maisbuscados .flecha {
+      position: absolute; }
+    body .maisbuscados .foto {
+      z-index: -3; }
+    body .maisbuscados .left {
+      left: 5px; }
+    body .maisbuscados .right {
+      right: 5px; } }
+
+/*# sourceMappingURL=hero.css.map */
