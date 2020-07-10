@@ -36,29 +36,62 @@
       background-color: #FFFFFF;
       color: #0052CB;
       border: 1px solid #0052CB; }
-    body .hero, body .novo, body .usado, body .verificar, body .encontremarca, body .encontretipo, body .carrosvenda, body .information {
+    body .hero, body .novo, body .usado, body .verificar, body .encontretipo, body .carrosvenda, body .information {
       margin: 20px; }
     body .hero .texts {
       margin-right: 10px; }
     body .backcolor {
-      background-color: #F1F5FC; }
+      background-color: #F1F5FC;
+      padding: 15px 0; }
     body .novo .ilustracion {
-      padding: 60px 0px 20px 0px; }
-    body .novo .content {
-      padding-bottom: 10px; }
+      padding: 20px 0px; }
     body .usado .ilustracion {
       margin-top: 10px; }
     body .image-slide {
       height: 100%;
       width: 100%;
       transition: background-image .1s ease-in-out; }
-    body .maisbuscados .flecha {
+    body .maisbuscados .carousel {
+      height: 300px;
+      object-fit: cover;
+      display: flex;
+      flex-direction: row;
+      align-items: center; }
+    body .maisbuscados .divflecha {
       position: absolute; }
     body .maisbuscados .foto {
+      object-fit: cover;
+      height: 100%;
       z-index: -3; }
     body .maisbuscados .left {
-      left: 5px; }
+      left: 0px; }
     body .maisbuscados .right {
-      right: 5px; } }
+      right: 0px; }
+    body .encontremarca .container-mayor {
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-rows: 25% 25% 25% 25%;
+      margin: 5px; }
+    body .encontremarca .container-logo {
+      width: 72px;
+      height: 72px;
+      margin: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #F0F0F0;
+      border-radius: 3px; }
+    body .encontretipo .images {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr); }
+    body .footer {
+      background-color: #07152B; }
+      body .footer ul {
+        color: #CDD2D8; }
+      body .footer h3, body .footer .divbottom {
+        color: #FFFFFF; }
+      body .footer .divbottom {
+        background-color: #6A727E; } }
 
 /*# sourceMappingURL=hero.css.map */

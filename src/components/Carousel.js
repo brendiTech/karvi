@@ -52,12 +52,12 @@ class Carousel extends React.Component {
 	render () {
 		return (
 			<div className="carousel">
-                <div onClick={ this.previousSlide }>
-                    <img src={Left} alt="arrowleft" className="flecha left" />
+                <div onClick={ this.previousSlide } className="divflecha left">
+                    <img src={Left} alt="arrowleft" className="flecha " />
                 </div>
 				<ImageSlide url={ imgUrls[this.state.currentImageIndex] } />
-                <div onClick={ this.nextSlide }>
-                    <img src={Right} alt="arrowright" className="flecha right"/>
+                <div onClick={ this.nextSlide } className="divflecha right">
+                    <img src={Right} alt="arrowright" className="flecha  "/>
                 </div>
 			</div>
 		);

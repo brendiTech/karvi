@@ -17,7 +17,7 @@ const CarrosVenda = () => {
                     <li>Volkswagen Jetta 2020</li>
                     <li>Volkswagen Jetta 2020</li>
                 </ul>
-                <button>Ver mais</button>
+                <button className="btn-blue">Ver mais</button>
             </div>
             <div className="usados">
                 <h2>Carros usados à venda</h2>
@@ -33,7 +33,7 @@ const CarrosVenda = () => {
                     <li>Volkswagen Jetta Usado</li>
                     <li>Volkswagen Jetta Usado</li>
                 </ul>
-                <button>Ver mais</button>
+                <button className="btn-blue">Ver mais</button>
             </div>
         </div>
     );

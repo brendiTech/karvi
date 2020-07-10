@@ -45,7 +45,7 @@
             color: #0052CB;            
             border: 1px solid #0052CB;
         }
-        .hero, .novo, .usado, .verificar, .encontremarca, .encontretipo, .carrosvenda, .information{
+        .hero, .novo, .usado, .verificar, .encontretipo,.carrosvenda, .information{
             margin: 20px;
         }
         .hero{
@@ -55,14 +55,13 @@
         }
         .backcolor{
             background-color: #F1F5FC;
+            padding: 15px 0;
         }
         .novo{
             .ilustracion{
-                padding: 60px 0px 20px 0px;
+                padding: 20px 0px;
             }
-            .content{
-                padding-bottom: 10px;
-            }
+
         }
         .usado{
             .ilustracion{
@@ -76,21 +75,67 @@
             transition: background-image .1s ease-in-out;
         }
         .maisbuscados{
-            .flecha{
+            .carousel{
+                height: 300px;
+                object-fit: cover;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+            }
+            .divflecha{
                 position: absolute;
             }
             .foto{
+                object-fit: cover;
+                height: 100%;
                 z-index: -3;
             }
             .left{
-                left: 5px;
-                
+                left: 0px;
             }
             .right{
-                right: 5px;
+                right: 0px;
+            }
+        }
+        .encontremarca{
+            .container-mayor{
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25%;
+                grid-template-rows: 25% 25% 25% 25%;   
+                margin:5px             
+            }
+            .container-logo{
+                width: 72px;
+                height: 72px;
+                margin: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid #F0F0F0;
+                border-radius: 3px;
+                //margin: 5px;
+            }
+        }
+        .encontretipo{
+            .images{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 1fr);
             }
         }
 
-
+        .footer{
+            background-color: #07152B;
+            ul{
+                color:#CDD2D8;
+            }
+            h3, .divbottom{
+                color:#FFFFFF;
+            }
+            .divbottom{
+                background-color: #6A727E;
+            }
+        }
     }
 }

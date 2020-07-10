@@ -18,19 +18,47 @@ const EncontreMarca = () => {
     return( 
         <div className="encontremarca">
             <h2>Encontre o carro por Marca</h2>
-            <img src={Honda} alt="Honda"/>
-            <img src={Peugeot} alt="Peugeot"/>
-            <img src={Ford} alt="Ford"/>
-            <img src={Citroen} alt="Citroen"/>
-            <img src={Renault} alt="Renault"/>
-            <img src={Jeep} alt="Jeep"/>
-            <img src={Nissan} alt="Nissan"/>
-            <img src={Hyundai} alt="Gyundai"/>
-            <img src={Chevrolet} alt="Chevrolet"/>
-            <img src={Fiat} alt="Fiat"/>
-            <img src={Toyota} alt="Toyota"/>
-            <img src={Volkswagen} alt="Volkswagen"/>
-            <img src={CAOA} alt="CAOA Chery"/>
+            <div className="container-mayor">
+                <div className="container-logo">
+                    <img src={Honda} alt="Honda"/>
+                </div>
+                <div className="container-logo">
+                    <img src={Peugeot} alt="Peugeot"/>  
+                </div>
+                <div className="container-logo">
+                    <img src={Ford} alt="Ford"/>
+                </div>
+                <div className="container-logo">
+                    <img src={Citroen} alt="Citroen"/>
+                </div>
+                <div className="container-logo">
+                    <img src={Renault} alt="Renault"/>
+                </div>
+                <div className="container-logo">
+                    <img src={Jeep} alt="Jeep"/>
+                </div>
+                <div className="container-logo">
+                    <img src={Nissan} alt="Nissan"/>
+                </div>
+                <div className="container-logo">
+                <img src={Hyundai} alt="Hyundai"/>
+                </div>
+                <div className="container-logo">
+                    <img src={Chevrolet} alt="Chevrolet"/>
+                </div>
+                <div className="container-logo">
+                    <img src={Fiat} alt="Fiat"/>
+                </div>
+                <div className="container-logo">
+                    <img src={Toyota} alt="Toyota"/>
+                </div>
+                <div className="container-logo">
+                    <img src={Volkswagen} alt="Volkswagen"/>
+                </div>
+                <div className="container-logo">
+                    <img src={CAOA} alt="CAOA Chery"/>
+                </div>
+            </div>
         </div> 
 
     );
