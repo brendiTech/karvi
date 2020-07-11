@@ -5,9 +5,21 @@ import FiatCar from '../images/FiatCar.png';
 import Right from '../images/Right.svg';
 import Left from '../images/Left.svg';
 
-const Hyundai = <img src={HyundaiCar} alt="HyundaiCar" className="foto carousel__item"/>
-const Jeep = <img src={JeepCar} alt="JeepCar" className="foto carousel__item"/> 
-const Fiat = <img src={FiatCar} alt="FiatCar" className="foto carousel__item"/>
+const Hyundai = <div>
+					<img src={HyundaiCar} alt="HyundaiCar" className="foto carousel__item"/>
+					<h4>Hyundai iX35</h4>
+					<p>2020/2021</p>
+				</div>
+const Jeep = <div>
+				<img src={JeepCar} alt="JeepCar" className="foto carousel__item"/>
+				<h4>Jeep wrangler</h4>
+				<p>2020/2021</p> 
+			</div>
+const Fiat = <div>
+				<img src={FiatCar} alt="FiatCar" className="foto carousel__item"/>
+				<h4>Fiat Argo</h4>
+				<p>2020/2021</p> 
+			</div>
 
 const imgUrls = [
     Hyundai,

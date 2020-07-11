@@ -77,21 +77,45 @@
     body .encontremarca .container-mayor {
       display: grid;
       grid-template-columns: 25% 25% 25% 25%;
-      grid-template-rows: 25% 25% 25% 25%;
-      margin: 5px; }
+      grid-template-rows: min-content;
+      margin: 20px; }
+    body .encontremarca .cuadricula {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
     body .encontremarca .container-logo {
       width: 72px;
       height: 72px;
-      margin: 5px;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       border: 1px solid #F0F0F0;
       border-radius: 3px; }
-    body .encontretipo .images {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(3, 1fr); }
+    body .encontremarca p {
+      font-size: 12px;
+      margin: 12px 0px;
+      color: #6A727E; }
+    body .encontretipo {
+      margin: 0 20px; }
+      body .encontretipo .images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding-bottom: 30px; }
+        body .encontretipo .images .cuadricula {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center; }
+          body .encontretipo .images .cuadricula img {
+            width: 90px;
+            height: 50px; }
+          body .encontretipo .images .cuadricula p {
+            font-size: 11px;
+            margin: 0px;
+            color: #000000; }
     body .carrosvenda ul {
       list-style-type: none;
       text-align: center;

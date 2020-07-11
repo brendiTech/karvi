@@ -19,44 +19,83 @@ const EncontreMarca = () => {
         <div className="encontremarca">
             <h2>Encontre o carro por Marca</h2>
             <div className="container-mayor">
-                <div className="container-logo">
-                    <img src={Honda} alt="Honda"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Honda} alt="Honda"/>
+                    </div>
+                    <p>Honda</p>
                 </div>
-                <div className="container-logo">
-                    <img src={Peugeot} alt="Peugeot"/>  
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Peugeot} alt="Peugeot"/>
+                    </div>
+                    <p>Peugeot</p> 
                 </div>
-                <div className="container-logo">
-                    <img src={Ford} alt="Ford"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Ford} alt="Ford"/>
+                    </div>
+                    <p>Ford</p>
                 </div>
-                <div className="container-logo">
-                    <img src={Citroen} alt="Citroen"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Citroen} alt="Citroen"/>
+                    </div>
+                    <p>Citroen</p>
                 </div>
-                <div className="container-logo">
-                    <img src={Renault} alt="Renault"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Renault} alt="Renault"/>                      
+                    </div>
+                    <p>Renault</p>
                 </div>
-                <div className="container-logo">
-                    <img src={Jeep} alt="Jeep"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Jeep} alt="Jeep"/>
+                    </div>
+                    <p>Jeep</p>
                 </div>
-                <div className="container-logo">
-                    <img src={Nissan} alt="Nissan"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Nissan} alt="Nissan"/>
+                    </div>
+                    <p>Nissan</p>
                 </div>
-                <div className="container-logo">
-                <img src={Hyundai} alt="Hyundai"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Hyundai} alt="Hyundai"/>
+                    </div>
+                    <p>Hyundai</p>
                 </div>
-                <div className="container-logo">
-                    <img src={Chevrolet} alt="Chevrolet"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Chevrolet} alt="Chevrolet"/>
+                    </div>
+                    <p>Chevrolet</p>
                 </div>
-                <div className="container-logo">
-                    <img src={Fiat} alt="Fiat"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Fiat} alt="Fiat"/>
+                    </div>
+                    <p>Fiat</p>
                 </div>
-                <div className="container-logo">
-                    <img src={Toyota} alt="Toyota"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Toyota} alt="Toyota"/>
+                    </div>
+                    <p>Toyota</p>
                 </div>
-                <div className="container-logo">
-                    <img src={Volkswagen} alt="Volkswagen"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={Volkswagen} alt="Volkswagen"/>
+                    </div>
+                    <p>Volkswagen</p>
                 </div>
-                <div className="container-logo">
-                    <img src={CAOA} alt="CAOA Chery"/>
+                <div className="cuadricula">
+                    <div className="container-logo">
+                        <img src={CAOA} alt="CAOA Chery"/>
+                    </div>
+                    <p>CAOA Chery</p>
                 </div>
             </div>
         </div> 

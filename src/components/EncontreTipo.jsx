@@ -13,29 +13,53 @@ const EncontreTipo = () => {
             <div className="encontretipo">
                 <h2>Encontre o carro por Tipo</h2>
                 <div className="images">
-                    <div className="container-tipo">
-                        <img src={Convertibles} alt="Convertibles"/>
+                    <div className="cuadricula">
+                        <div className="container-tipo">
+                            <img src={Convertibles} alt="Convertibles"/>
+                        </div>
+                        <p>Convertibles</p>
                     </div>
-                    <div className="container-tipo">
-                        <img src={Coupes} alt="Coupes"/>
+                    <div className="cuadricula">
+                        <div className="container-tipo">
+                            <img src={Coupes} alt="Coupes"/>
+                        </div>
+                        <p>Coupes</p>
                     </div>
-                    <div className="container-tipo">
-                        <img src={SUV} alt="SUV"/>
+                    <div className="cuadricula">
+                        <div className="container-tipo">
+                            <img src={SUV} alt="SUV"/>
+                        </div>
+                        <p>SUV</p>
                     </div>
-                    <div className="container-tipo">
-                        <img src={Sedan} alt="Sedan"/>
+                    <div className="cuadricula">
+                        <div className="container-tipo">
+                            <img src={Sedan} alt="Sedan"/>
+                        </div>
+                        <p>Sedan</p>
                     </div>
-                    <div className="container-tipo">
-                        <img src={Pickup} alt="Pickup"/>
+                    <div className="cuadricula">
+                        <div className="container-tipo">
+                            <img src={Pickup} alt="Pickup"/>
+                        </div>
+                        <p>Pickup</p>
                     </div>
-                    <div className="container-tipo">
-                        <img src={Utilitario} alt="Utilitario"/>
+                    <div className="cuadricula">
+                        <div className="container-tipo">
+                            <img src={Utilitario} alt="Utilitario"/>
+                        </div>
+                        <p>Utilitario</p>
                     </div>
-                    <div className="container-tipo">
-                        <img src={Hatchback} alt="Hatchback"/>
+                    <div className="cuadricula">
+                        <div className="container-tipo">
+                            <img src={Hatchback} alt="Hatchback"/>
+                        </div>
+                        <p>Hatchback</p>
                     </div>
-                    <div className="container-tipo">
-                        <img src={Electrico} alt="Electrico"/>
+                    <div className="cuadricula">
+                        <div className="container-tipo">
+                            <img src={Electrico} alt="Electrico"/>
+                        </div>
+                        <p>Electrico</p>
                     </div>
                 </div>
             </div>
