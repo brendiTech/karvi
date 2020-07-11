@@ -7,32 +7,30 @@ const CarrosPrecios = () => {
                 <div className="novos">
                     <h2>Carros novos preços</h2>
                     <ul>
-                        <li>Jeep Wrangler 2020 preços</li>
-                        <li>Honda Accord 2020 preços</li>
-                        <li>Honda Civic 2020 preços</li>
-                        <li>Ford Explorer 2020 preços</li>
-                        <li>BMW 3 Series 2020 preços</li>
-                        <li>Dodge Challenger 2020 preços</li>
-                        <li>Mazda 3 2020 preços</li>
-                        <li>Toyota Camry 2020 preços</li>
-                        <li>Volkswagen Jetta 2020 preços</li>
-                        <li>Volkswagen Jetta 2020 preços</li>
+                        <li><a href="">Jeep Wrangler 2020 preços</a></li>
+                        <li><a href="">Honda Accord 2020 preços</a></li>
+                        <li><a href="">Honda Civic 2020 preços</a></li>
+                        <li><a href="">Ford Explorer 2020 preços</a></li>
+                        <li><a href="">BMW 3 Series 2020 preços</a></li>
+                        <li><a href="">Dodge Challenger 2020 preços</a></li>
+                        <li><a href="">Mazda 3 2020 preços</a></li>
+                        <li><a href="">Toyota Camry 2020 preços</a></li>
+                        <li><a href="">Volkswagen Jetta 2020 preços</a></li>
                     </ul>
                     <button className="btn-blue">Ver mais</button>
                 </div>
                 <div className="usados">
                     <h2>Carros usados preços</h2>
                     <ul>
-                        <li>Jeep Wrangler Usado preços</li>
-                        <li>Honda Accord Usado preços</li>
-                        <li>Honda Civic Usado preços</li>
-                        <li>Ford Explorer Usado preços</li>
-                        <li>BMW 3 Series Usado preços</li>
-                        <li>Dodge Challenger Usado preços</li>
-                        <li>Mazda 3 Usado preços</li>
-                        <li>Toyota Camry Usado preços</li>
-                        <li>Volkswagen Jetta Usado preços</li>
-                        <li>Volkswagen Jetta Usado preços</li>
+                        <li><a href="">Jeep Wrangler Usado preços</a></li>
+                        <li><a href="">Honda Accord Usado preços</a></li>
+                        <li><a href="">Honda Civic Usado preços</a></li>
+                        <li><a href="">Ford Explorer Usado preços</a></li>
+                        <li><a href="">BMW 3 Series Usado preços</a></li>
+                        <li><a href="">Dodge Challenger Usado preços</a></li>
+                        <li><a href="">Mazda 3 Usado preços</a></li>
+                        <li><a href="">Toyota Camry Usado preços</a></li>
+                        <li><a href="">Volkswagen Jetta Usado preços</a></li>
                     </ul>
                     <button className="btn-blue">Ver mais</button>
                 </div>

@@ -45,7 +45,7 @@
             color: #0052CB;            
             border: 1px solid #0052CB;
         }
-        .hero, .novo, .usado, .verificar, .encontretipo,.carrosvenda, .information{
+        .hero, .novo, .usado, .verificar, .encontretipo,.carrosvenda, .information, .footer{
             margin: 20px;
         }
         .hero{
@@ -61,7 +61,6 @@
             .ilustracion{
                 padding: 20px 0px;
             }
-
         }
         .usado{
             .ilustracion{
@@ -124,18 +123,64 @@
                 grid-template-rows: repeat(3, 1fr);
             }
         }
-
-        .footer{
-            background-color: #07152B;
+        .carrosvenda{
             ul{
-                color:#CDD2D8;
+                list-style-type: none;
+                text-align: center;
+                padding: 0;
+                font-size: 14px;
+                li{
+                    margin: 10px;
+                }
             }
+        }
+        .backfooter{
+            background-color: #07152B;
             h3, .divbottom{
+                font-size: 13px;
                 color:#FFFFFF;
+                margin: 0;
             }
             .divbottom{
                 background-color: #6A727E;
+                padding: 20px;
             }
-        }
+        
+        .footer{
+            margin: 0px 20px;
+            
+            ul{
+                color:#CDD2D8;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                padding: 0;
+                list-style-type: none;
+                font-size: 12px;
+                li{
+                    margin: 0px 5px 5px 0px;
+                }
+            }
+            .links{
+                height: 50px;
+            }
+            .icons{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px 0px;
+                img{
+                    height: 25px;
+                }
+                .redes{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        margin: 5px;
+                    }
+                }
+            }
+        }}
+
     }
 }
