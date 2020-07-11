@@ -1,4 +1,4 @@
-@media (max-width: 1365px) {
+@media (min-width: 360px) {
   body {
     font-family: 'proxima-nova';
     color: #07152B; }
@@ -74,15 +74,15 @@
       body .information p {
         margin: 15px 0px; }
     body .encontremarca .container-mayor {
-      display: grid;
-      grid-template-columns: 25% 25% 25% 25%;
-      grid-template-rows: min-content;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
       margin: 20px; }
     body .encontremarca .cuadricula {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center; }
+      margin: 0 3px; }
     body .encontremarca .container-logo {
       width: 72px;
       height: 72px;
@@ -99,15 +99,17 @@
     body .encontretipo {
       margin: 0 20px; }
       body .encontretipo .images {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
         padding-bottom: 30px; }
         body .encontretipo .images .cuadricula {
-          display: flex;
           justify-content: center;
+          align-items: center;
+          display: flex;
           flex-direction: column;
-          align-items: center; }
+          margin: 0 2%; }
           body .encontretipo .images .cuadricula img {
             width: 90px;
             height: 50px; }
@@ -161,6 +163,7 @@
               margin: 5px; } }
 @media (min-width: 768px) {
   body .hero, body .novo, body .usado, body .verificar {
+    margin: 5% 10%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1; }
@@ -176,6 +179,8 @@
     line-height: 18px; }
   body .novo .content, body .usado .content, body .verificar .content {
     margin: 20px; }
+  body .backcolor {
+    padding: 5px 0; }
   body .usado img {
     grid-column: 2;
     grid-row: 1; }
@@ -183,6 +188,73 @@
     width: 60%;
     margin: 70px auto; }
     body .information .btn-blue {
-      width: 210px; } }
+      width: 210px; }
+  body .encontremarca .container-mayor {
+    justify-content: center; }
+  body .encontremarca .cuadricula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 8px; }
+  body .encontretipo {
+    padding: 5% 0%; }
+    body .encontretipo .images {
+      justify-content: center; }
+      body .encontretipo .images .cuadricula {
+        margin: 0 3%; }
+  body .carrosvenda {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    body .carrosvenda h2 {
+      text-align: left; }
+    body .carrosvenda ul {
+      text-align: left; }
+      body .carrosvenda ul li {
+        margin: 10px 0px; }
+    body .carrosvenda button {
+      margin: 16px 0px; }
+  body .backfooter .footer .links {
+    height: auto; }
+  body .backfooter .footer .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 2% 4% 2%; }
+  body .backfooter .footer ul {
+    font-size: 14px;
+    margin-top: auto; }
+  body .backfooter .footer h3 {
+    font-size: 16px;
+    margin-bottom: 5px; } }
+@media (min-width: 1024px) {
+  body h1 {
+    font-size: 32px; }
+  body h2 {
+    font-size: 22px;
+    font-weight: 900; }
+  body p {
+    font-size: 16px; }
+  body .hero, body .novo, body .usado, body .verificar {
+    margin: 2% 6%; }
+  body .hero .content button {
+    width: 190px;
+    margin-right: 10px; }
+  body .novo .ilustracion, body .usado .ilustracion, body .verificar .ilustracion {
+    width: 65%;
+    margin: auto; }
+  body .encontremarca .cuadricula {
+    margin: 13px; }
+  body .encontretipo {
+    padding: 2% 0%; }
+    body .encontretipo .images {
+      width: 85%;
+      margin: auto;
+      justify-content: center; }
+      body .encontretipo .images .cuadricula {
+        margin: 1% 3%; }
+        body .encontretipo .images .cuadricula img {
+          width: auto; } }
 
 /*# sourceMappingURL=hero.css.map */
