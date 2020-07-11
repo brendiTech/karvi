@@ -5,15 +5,15 @@
       display: flex;
       align-items: center;
       width: 100%;
-      margin-top: 5px;
-      padding: 0px 0px 5px 0px;
+      padding: 10px 0px;
       box-shadow: 0px 1px 1px #00000029; }
       body .navbar .btn-menu {
-        width: 25px;
+        height: 18px;
         margin-left: 20px;
         position: absolute; }
       body .navbar .logo {
-        margin: auto; }
+        margin: auto;
+        height: 25px; }
       body .navbar .menuoptions, body .navbar .options {
         display: none; } }
 

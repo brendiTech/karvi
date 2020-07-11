@@ -3,7 +3,7 @@
     font-family: 'proxima-nova';
     color: #07152B; }
     body h1 {
-      font-size: 28px;
+      font-size: 26px;
       text-align: left;
       letter-spacing: 0px; }
     body h2 {
@@ -19,7 +19,8 @@
       font-size: 14px;
       margin-bottom: 35px; }
     body .ilustracion, body .foto {
-      width: 100%; }
+      width: 100%;
+      margin: 15px 0px; }
     body .btn-blue, body .btn-white {
       font-size: 14px;
       font-weight: 700;
@@ -37,14 +38,12 @@
       color: #0052CB;
       border: 1px solid #0052CB; }
     body .hero, body .novo, body .usado, body .verificar, body .encontretipo, body .carrosvenda, body .information, body .footer {
-      margin: 20px; }
+      margin: 20px 20px 0px 20px; }
     body .hero .texts {
       margin-right: 10px; }
     body .backcolor {
       background-color: #F1F5FC;
-      padding: 15px 0; }
-    body .novo .ilustracion {
-      padding: 20px 0px; }
+      padding: 15px 0 0 0; }
     body .usado .ilustracion {
       margin-top: 10px; }
     body .image-slide {
@@ -67,6 +66,14 @@
       left: 0px; }
     body .maisbuscados .right {
       right: 0px; }
+    body .information {
+      margin: 70px 20px;
+      text-align: center; }
+      body .information .btn-blue {
+        width: 60%;
+        margin: auto; }
+      body .information p {
+        margin: 15px 0px; }
     body .encontremarca .container-mayor {
       display: grid;
       grid-template-columns: 25% 25% 25% 25%;
@@ -89,7 +96,8 @@
       list-style-type: none;
       text-align: center;
       padding: 0;
-      font-size: 14px; }
+      font-size: 14px;
+      font-weight: 300; }
       body .carrosvenda ul li {
         margin: 10px; }
     body .backfooter {
@@ -110,7 +118,8 @@
           flex-wrap: wrap;
           padding: 0;
           list-style-type: none;
-          font-size: 12px; }
+          font-size: 12px;
+          font-weight: 300; }
           body .backfooter .footer ul li {
             margin: 0px 5px 5px 0px; }
         body .backfooter .footer .links {

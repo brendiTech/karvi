@@ -3,7 +3,7 @@
         font-family: 'proxima-nova';
         color: #07152B;
         h1{
-            font-size: 28px;
+            font-size: 26px;
             text-align: left;
             letter-spacing: 0px;
         }
@@ -25,6 +25,7 @@
         }
         .ilustracion, .foto{
             width: 100%;
+            margin: 15px 0px;
         }
         .btn-blue, .btn-white{
             font-size: 14px;
@@ -46,7 +47,7 @@
             border: 1px solid #0052CB;
         }
         .hero, .novo, .usado, .verificar, .encontretipo,.carrosvenda, .information, .footer{
-            margin: 20px;
+            margin: 20px 20px 0px 20px;
         }
         .hero{
             .texts{
@@ -55,12 +56,7 @@
         }
         .backcolor{
             background-color: #F1F5FC;
-            padding: 15px 0;
-        }
-        .novo{
-            .ilustracion{
-                padding: 20px 0px;
-            }
+            padding: 15px 0 0 0;
         }
         .usado{
             .ilustracion{
@@ -97,6 +93,17 @@
                 right: 0px;
             }
         }
+        .information{
+            margin: 70px 20px;
+            text-align: center;
+            .btn-blue{
+                width: 60%;
+                margin: auto;
+            }
+            p{
+                margin: 15px 0px;
+            }
+        }
         .encontremarca{
             .container-mayor{
                 display: grid;
@@ -124,11 +131,13 @@
             }
         }
         .carrosvenda{
+
             ul{
                 list-style-type: none;
                 text-align: center;
                 padding: 0;
                 font-size: 14px;
+                font-weight: 300;
                 li{
                     margin: 10px;
                 }
@@ -157,6 +166,7 @@
                 padding: 0;
                 list-style-type: none;
                 font-size: 12px;
+                font-weight: 300;
                 li{
                     margin: 0px 5px 5px 0px;
                 }
