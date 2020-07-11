@@ -51,7 +51,6 @@
       width: 100%;
       transition: background-image .1s ease-in-out; }
     body .maisbuscados .carousel {
-      height: 300px;
       object-fit: cover;
       display: flex;
       flex-direction: row;
@@ -160,5 +159,30 @@
             align-items: center; }
             body .backfooter .footer .icons .redes img {
               margin: 5px; } }
+@media (min-width: 768px) {
+  body .hero, body .novo, body .usado, body .verificar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1; }
+    body .hero .content, body .novo .content, body .usado .content, body .verificar .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      body .hero .content button, body .novo .content button, body .usado .content button, body .verificar .content button {
+        width: 220px; }
+  body .novo h2, body .novo p, body .usado h2, body .usado p, body .verificar h2, body .verificar p {
+    text-align: left; }
+  body .novo p, body .usado p, body .verificar p {
+    line-height: 18px; }
+  body .novo .content, body .usado .content, body .verificar .content {
+    margin: 20px; }
+  body .usado img {
+    grid-column: 2;
+    grid-row: 1; }
+  body .information {
+    width: 60%;
+    margin: 70px auto; }
+    body .information .btn-blue {
+      width: 210px; } }
 
 /*# sourceMappingURL=hero.css.map */
