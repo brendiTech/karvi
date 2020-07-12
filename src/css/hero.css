@@ -362,5 +362,15 @@
       margin-right: 240px; }
   body .backfooter .divbottom h3 {
     margin-left: 240px; } }
+.carousel-container {
+  margin: auto;
+  overflow: hidden; }
+
+.carousel-slide {
+  display: flex;
+  width: 100%; }
+  .carousel-slide .foto {
+    width: auto;
+    height: auto; }
 
 /*# sourceMappingURL=hero.css.map */
