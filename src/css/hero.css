@@ -271,5 +271,70 @@
     height: 35px; }
   body .backfooter .divbottom h3 {
     font-size: 16px; } }
+@media (min-width: 1366px) {
+  body h1 {
+    font-size: 44px; }
+  body h2 {
+    font-size: 26px; }
+  body h3 {
+    font-size: 22px; }
+  body p {
+    font-size: 18px; }
+  body .navbar .btn-menu {
+    display: none; }
+  body .navbar .logo {
+    height: auto;
+    margin-left: 2%; }
+  body .navbar .options, body .navbar .menuoptions {
+    display: flex; }
+    body .navbar .options ul, body .navbar .menuoptions ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      margin-right: 250px;
+      width: 500px; }
+      body .navbar .options ul li, body .navbar .menuoptions ul li {
+        font-weight: 700;
+        margin: 0% 4%; }
+    body .navbar .options .carro, body .navbar .options .user, body .navbar .menuoptions .carro, body .navbar .menuoptions .user {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 30px; }
+      body .navbar .options .carro a, body .navbar .options .user a, body .navbar .menuoptions .carro a, body .navbar .menuoptions .user a {
+        text-decoration: none;
+        color: #6A727E;
+        font-size: 16px;
+        margin: 10px; }
+  body .hero .content button {
+    width: 220px; }
+  body .hero, body .novo, body .usado, body .verificar {
+    margin: 2% 15%; }
+    body .hero p, body .novo p, body .usado p, body .verificar p {
+      line-height: normal; }
+  body .information {
+    width: 34%; }
+  body .encontremarca .cuadricula {
+    margin: 8px; }
+    body .encontremarca .cuadricula p {
+      font-size: 14px; }
+  body .encontretipo .images {
+    width: auto;
+    margin: 0% 5%; }
+    body .encontretipo .images .cuadricula {
+      margin: auto; }
+      body .encontretipo .images .cuadricula p {
+        font-size: 14px; }
+  body .carrosvenda .novos ul, body .carrosvenda .usados ul {
+    width: 600px; }
+    body .carrosvenda .novos ul li, body .carrosvenda .usados ul li {
+      font-size: 16px; }
+  body .encontretipo, body .carrosvenda, body .footer {
+    margin-left: 40px;
+    margin-right: 40px; }
+  body .backfooter .footer .content {
+    width: 60%; }
+  body .backfooter .divbottom h3 {
+    font-size: 16px; } }
 
 /*# sourceMappingURL=hero.css.map */

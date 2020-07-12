@@ -329,7 +329,6 @@
                 h3{
                     font-size: 16px;
                     margin-bottom: 5px;
-
                 }
             }
 
@@ -419,6 +418,125 @@
                     font-size: 16px;
                 }
             }
+        }
+    }
+}
+
+@media (min-width: 1366px){
+    body{
+        h1{
+            font-size: 44px;
+        }
+        h2{
+            font-size: 26px;
+        }
+        h3{
+            font-size: 22px;
+        }
+        p{
+            font-size: 18px;
+        }
+        .navbar{
+            .btn-menu{
+                display: none;
+            }
+            .logo{
+                height: auto;
+                margin-left: 2%;
+            }
+
+            .options, .menuoptions{
+                display: flex;
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    list-style-type: none;
+                    margin-right: 250px;
+                    width: 500px;
+                    li{
+                        font-weight: 700;
+                        margin: 0% 4%;
+                    }
+                }
+                .carro, .user {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 30px;
+                    a{
+                        text-decoration: none;
+                        color: #6A727E;
+                        font-size: 16px;
+                        margin: 10px;
+                    }
+                }
+
+                
+            }
+        }
+        .hero{
+            .content{
+                button{
+                    width: 220px;
+                }
+            }
+        }
+        .hero, .novo, .usado, .verificar{
+            margin: 2% 15%;
+            p{
+                line-height: normal;
+            }
+        }
+        .information{
+            width: 34%;
+        }
+        .encontremarca{
+            .cuadricula{
+                margin: 8px;
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        .encontretipo{
+            .images{
+                width: auto;
+                margin: 0% 5%;
+                .cuadricula{
+                    margin:auto;
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+
+        }
+        .carrosvenda {
+            .novos, .usados{
+                ul{
+                width: 600px;
+                li{
+                    font-size: 16px;
+                }
+                }
+            }
+ 
+        }
+        .encontretipo,.carrosvenda, .footer{
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .backfooter{
+            .footer{
+                .content{
+                    width: 60%;
+                }
+            }
+            .divbottom{
+                h3{
+                    font-size: 16px;
+                } 
+            }   
         }
     }
 }
