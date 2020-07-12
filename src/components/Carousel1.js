@@ -21,22 +21,28 @@ function Carousel(){
                         <div className="slide slide_1">
                             <div className="slide-content">
                                 <img src={HyundaiCar} alt="HyundaiCar" className="foto carousel__item"/>
-                                <h4>Hyundai iX35</h4>
-                                <p>2020/2021</p>
+                                <div className="description">
+                                    <h4>Hyundai iX35</h4>
+                                    <p>2020/2021</p>
+                                </div>
                             </div>
                         </div>
                         <div className="slide slide_2">
                         <div className="slide-content">
                                 <img src={JeepCar} alt="JeepCar" className="foto carousel__item"/>
-                                <h4>Jeep wrangler</h4>
-                                <p>2020/2021</p>
+                                <div className="description">
+                                    <h4>Jeep Wrangler</h4>
+                                    <p>2020/2021</p>
+                                </div>
                         </div>
                         </div>
                         <div className="slide slide_3">
                         <div className="slide-content">
                         <img src={FiatCar} alt="FiatCar" className="foto carousel__item"/>
+                            <div className="description">
                                 <h4>Fiat Argo</h4>
                                 <p>2020/2021</p> 
+                            </div>
                         </div>
                         </div>
                         
