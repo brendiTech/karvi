@@ -15,6 +15,8 @@ const CarrosVenda = () => {
                     <li><a href="">Mazda 3 2020</a></li>
                     <li><a href="">Toyota Camry 2020</a></li>
                     <li><a href="">Volkswagen Jetta 2020</a></li>
+                    <li><a href="">Volkswagen Jetta 2020</a></li>
+
                 </ul>
                 <button className="btn-blue">Ver mais</button>
             </div>
@@ -30,6 +32,8 @@ const CarrosVenda = () => {
                     <li><a href="">Mazda 3 Usado</a></li>
                     <li><a href="">Toyota Camry Usado</a></li>
                     <li><a href="">Volkswagen Jetta Usado</a></li>
+                    <li><a href="">Volkswagen Jetta Usado</a></li>
+
                 </ul>
                 <button className="btn-blue">Ver mais</button>
             </div>

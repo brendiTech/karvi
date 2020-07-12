@@ -387,5 +387,38 @@
                 }
             }
         }
+        .carrosvenda{
+            ul{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                height: 200px;
+                width: 450px;
+
+            }
+            button{
+                width: 233px;
+                margin-bottom: 50px;
+
+            }
+
+        }
+        .backfooter{
+            .footer{
+                .content{
+                    width: 75%
+                }
+                .icons{
+                    img{
+                        height: 35px;
+                    }
+                }
+            }
+            .divbottom{
+                h3{
+                    font-size: 16px;
+                }
+            }
+        }
     }
 }

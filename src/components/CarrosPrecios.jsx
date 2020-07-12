@@ -16,6 +16,7 @@ const CarrosPrecios = () => {
                         <li><a href="">Mazda 3 2020 preços</a></li>
                         <li><a href="">Toyota Camry 2020 preços</a></li>
                         <li><a href="">Volkswagen Jetta 2020 preços</a></li>
+                        <li><a href="">Volkswagen Jetta 2020 preços</a></li>
                     </ul>
                     <button className="btn-blue">Ver mais</button>
                 </div>
@@ -30,6 +31,7 @@ const CarrosPrecios = () => {
                         <li><a href="">Dodge Challenger Usado preços</a></li>
                         <li><a href="">Mazda 3 Usado preços</a></li>
                         <li><a href="">Toyota Camry Usado preços</a></li>
+                        <li><a href="">Volkswagen Jetta Usado preços</a></li>
                         <li><a href="">Volkswagen Jetta Usado preços</a></li>
                     </ul>
                     <button className="btn-blue">Ver mais</button>

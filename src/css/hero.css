@@ -255,6 +255,21 @@
       body .encontretipo .images .cuadricula {
         margin: 1% 3%; }
         body .encontretipo .images .cuadricula img {
-          width: auto; } }
+          width: auto; }
+  body .carrosvenda ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 450px; }
+  body .carrosvenda button {
+    width: 233px;
+    margin-bottom: 50px; }
+  body .backfooter .footer .content {
+    width: 75%; }
+  body .backfooter .footer .icons img {
+    height: 35px; }
+  body .backfooter .divbottom h3 {
+    font-size: 16px; } }
 
 /*# sourceMappingURL=hero.css.map */
