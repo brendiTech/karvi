@@ -3,8 +3,6 @@ import Menu from '../images/Menu.svg';
 import Logo from '../images/Logo.svg';
 import iconcar from '../images/iconcar.svg';
 import user from '../images/user.svg';
-import '../css/navbar.css';
-
 
 const Navbar = () => {
   return (
@@ -13,19 +11,23 @@ const Navbar = () => {
       <img src={Logo} alt="Logo" className="logo"/>
       <div className="menuoptions">
         <ul>
-          <li>Novos</li>
-          <li>Usados</li>
-          <li>Venda seu carro</li>
+          <li><a href="">Novos</a></li>
+          <li><a href="">Usados</a></li>
+          <li><a href="">Venda seu carro</a></li>
         </ul>
       </div>
       <div className="options">
         <div className="carro">
+          <a href="">
           <img src={iconcar} alt="carro"/>
-          <a href="">Meus carros</a>
+          Meus carros
+          </a>
         </div>
         <div className="user">
+          <a href="">
           <img src={user} alt="icon-user"/>
-          <a href="">Pedro Gomez</a>
+          Pedro Gomez
+          </a>
         </div>
       </div>
     </div>

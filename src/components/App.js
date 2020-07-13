@@ -11,7 +11,7 @@ import EncontreTipo from './EncontreTipo'
 import CarrosVenda from './CarrosVenda';
 import CarrosPrecios from './CarrosPrecios';
 import Footer from './Footer';
-import '../css/hero.css'
+import '../css/index.css'
 
 class App extends Component {
 

@@ -11,19 +11,19 @@ const Footer = () => {
                 <div className="icons">
                     <img src={LogoWithe} alt="Logo"/>
                     <div className="redes">
-                        <img src={Facebook} alt="Facebook"/>
-                        <img src={Linkedin} alt="Linkedin"/>
-                        <img src={Instagram} alt="Instagram"/>
+                        <a href=""><img src={Facebook} alt="Facebook"/></a>
+                        <a href=""><img src={Linkedin} alt="Linkedin"/></a>
+                        <a href=""><img src={Instagram} alt="Instagram"/></a>
                     </div>
                 </div>
                 <div className="content">
                     <div className="links">
                         <ul className="links">
-                            <li>Carros Novos</li>
-                            <li>Carros Usados</li>
-                            <li>Super ofertas</li>
-                            <li>Cite meu usado</li>
-                            <li>FAQ</li>
+                            <li><a href="">Carros Novos</a></li>
+                            <li><a href="">Carros Usados</a></li>
+                            <li><a href="">Super ofertas</a></li>
+                            <li><a href="">Cite meu usado</a></li>
+                            <li><a href="">FAQ</a></li>
                         </ul>
                     </div>
                     <div className="cliente">
@@ -41,7 +41,6 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-
             </div>
             <div className="divbottom">
                     <h3>Termos e Condições-Política de Privacidade</h3>

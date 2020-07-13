@@ -1,5 +1,6 @@
-@media (min-width: 360px) {
+@media screen and (min-width: 320px) {
   body {
+    margin: 0;
     font-family: 'proxima-nova';
     color: #07152B; }
     body h1 {
@@ -18,6 +19,22 @@
       font-weight: lighter;
       font-size: 14px;
       margin-bottom: 35px; }
+    body .navbar {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 10px 0px;
+      box-shadow: 0px 1px 1px #00000029; }
+      body .navbar .btn-menu {
+        height: 18px;
+        margin-left: 20px;
+        position: absolute; }
+      body .navbar .logo {
+        margin: auto;
+        height: 25px;
+        cursor: pointer; }
+      body .navbar .menuoptions, body .navbar .options {
+        display: none; }
     body .ilustracion, body .foto {
       width: 100%;
       margin: 15px 0px; }
@@ -47,25 +64,10 @@
       padding: 15px 0 0 0; }
     body .usado .ilustracion {
       margin-top: 10px; }
-    body .image-slide {
-      height: 100%;
-      width: 100%;
-      transition: background-image .1s ease-in-out; }
-    body .maisbuscados .carousel {
-      object-fit: cover;
-      display: flex;
-      flex-direction: row;
-      align-items: center; }
-    body .maisbuscados .divflecha {
-      position: absolute; }
     body .maisbuscados .foto {
       object-fit: cover;
       height: 100%;
       z-index: -3; }
-    body .maisbuscados .left {
-      left: 0px; }
-    body .maisbuscados .right {
-      right: 0px; }
     body .information {
       margin: 70px 20px;
       text-align: center; }
@@ -150,6 +152,9 @@
             margin: 0px 5px 5px 0px; }
         body .backfooter .footer .links {
           height: 50px; }
+          body .backfooter .footer .links a {
+            text-decoration: none;
+            color: #CDD2D8; }
         body .backfooter .footer .icons {
           display: flex;
           justify-content: space-between;
@@ -162,7 +167,7 @@
             align-items: center; }
             body .backfooter .footer .icons .redes img {
               margin: 5px; } }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   body .hero, body .novo, body .usado, body .verificar {
     margin: 5% 10%;
     display: grid;
@@ -229,7 +234,7 @@
   body .backfooter .footer h3 {
     font-size: 16px;
     margin-bottom: 5px; } }
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   body h1 {
     font-size: 32px; }
   body h2 {
@@ -272,7 +277,7 @@
     height: 35px; }
   body .backfooter .divbottom h3 {
     font-size: 16px; } }
-@media (min-width: 1366px) {
+@media screen and (min-width: 1366px) {
   body h1 {
     font-size: 44px; }
   body h2 {
@@ -299,16 +304,23 @@
       body .navbar .options ul li, body .navbar .menuoptions ul li {
         font-weight: 700;
         margin: 0% 4%; }
+        body .navbar .options ul li a, body .navbar .menuoptions ul li a {
+          text-decoration: none;
+          color: #07152B; }
     body .navbar .options .carro, body .navbar .options .user, body .navbar .menuoptions .carro, body .navbar .menuoptions .user {
       display: flex;
       align-items: center;
-      justify-content: center;
-      margin-right: 30px; }
+      justify-content: center; }
+      body .navbar .options .carro img, body .navbar .options .user img, body .navbar .menuoptions .carro img, body .navbar .menuoptions .user img {
+        margin: 5px; }
       body .navbar .options .carro a, body .navbar .options .user a, body .navbar .menuoptions .carro a, body .navbar .menuoptions .user a {
         text-decoration: none;
         color: #6A727E;
         font-size: 16px;
-        margin: 10px; }
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
   body .hero .content button {
     width: 220px; }
   body .hero, body .novo, body .usado, body .verificar {
@@ -341,7 +353,7 @@
     width: 60%; }
   body .backfooter .divbottom h3 {
     font-size: 16px; } }
-@media (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
   body .navbar .options {
     margin-left: 35%; }
   body .novo .content, body .usado .content, body .verificar .content {
@@ -362,15 +374,5 @@
       margin-right: 240px; }
   body .backfooter .divbottom h3 {
     margin-left: 240px; } }
-.carousel-container {
-  margin: auto;
-  overflow: hidden; }
 
-.carousel-slide {
-  display: flex;
-  width: 100%; }
-  .carousel-slide .foto {
-    width: auto;
-    height: auto; }
-
-/*# sourceMappingURL=hero.css.map */
+/*# sourceMappingURL=index.css.map */

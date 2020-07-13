@@ -7,6 +7,7 @@ import Pickup from '../images/typescar/Pickup.svg';
 import Utilitario from '../images/typescar/Utilitario.svg';
 import Hatchback from '../images/typescar/Hatchback.svg';
 import Electrico from '../images/typescar/Electrico.svg';
+
 const EncontreTipo = () => {
     return(
         <div className="backcolor">

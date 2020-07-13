@@ -1,16 +1,14 @@
 import React from 'react';
-import Carousel from './Carousel1';
+import Slider from './Slider';
 
 
 const MaisBuscados = () => {
-
     return(
         <div className="maisbuscados">
             <h2>Carros novos mais buscados</h2>
-                <Carousel/>
+                <Slider/>
         </div>
-
-);  
+    );  
 } 
  
 export default MaisBuscados
