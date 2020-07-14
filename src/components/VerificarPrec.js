@@ -3,7 +3,7 @@ import Verificar from '../images/Verificar.svg';
 
 const VerificarPrec = () => {
     return(
-        <div className="backcolor">
+        <section className="backcolor">
             <div className="verificar">
                 <img src={Verificar} alt="dibujo" className="ilustracion"/>
                 <div className="content">
@@ -12,7 +12,7 @@ const VerificarPrec = () => {
                     <button className="btn-blue">Verificar preç</button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

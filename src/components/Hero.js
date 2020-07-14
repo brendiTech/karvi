@@ -3,7 +3,7 @@ import Heroimg from '../images/Heroimg.svg'
 
 const Hero = () => {
     return(
-        <div className="hero">
+        <section className="hero">
             <div className="content">
                 <div className="texts">
                     <h1>Compre de forma inteligente. <br></br>Dirija mais feliz.</h1>
@@ -15,7 +15,7 @@ const Hero = () => {
                 </div>
             </div>
             <img src={Heroimg} alt="dibujo" className="ilustracion"/>
-        </div>
+        </section>
     );
 };
 

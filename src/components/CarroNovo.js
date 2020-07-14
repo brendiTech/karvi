@@ -3,7 +3,7 @@ import Novo from '../images/Novo.svg';
 
 const CarroNovo = () => {
     return(
-        <div className="backcolor">
+        <section className="backcolor">
             <div className="novo">
                 <img src={Novo} alt="car" className="ilustracion"/>
                 <div className="content">
@@ -12,7 +12,7 @@ const CarroNovo = () => {
                     <button className="btn-blue">Comprar carro novo</button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

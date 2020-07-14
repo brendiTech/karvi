@@ -10,7 +10,7 @@ import Electrico from '../images/typescar/Electrico.svg';
 
 const EncontreTipo = () => {
     return(
-        <div className="backcolor">
+        <section className="backcolor">
             <div className="encontretipo">
                 <h2>Encontre o carro por Tipo</h2>
                 <div className="images">
@@ -64,7 +64,7 @@ const EncontreTipo = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

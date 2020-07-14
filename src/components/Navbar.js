@@ -6,7 +6,7 @@ import user from '../images/user.svg';
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <header className="navbar">
       <img src={Menu} alt="botonmenu" className="btn-menu"/>
       <img src={Logo} alt="Logo" className="logo"/>
       <div className="menuoptions">
@@ -30,7 +30,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

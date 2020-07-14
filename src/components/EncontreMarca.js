@@ -16,7 +16,7 @@ import CAOA from '../images/logoscar/CAOA.png'
 
 const EncontreMarca = () => {
     return( 
-        <div className="encontremarca">
+        <section className="encontremarca">
             <h2>Encontre o carro por Marca</h2>
             <div className="container-mayor">
                 <div className="cuadricula">
@@ -98,7 +98,7 @@ const EncontreMarca = () => {
                     <p>CAOA Chery</p>
                 </div>
             </div>
-        </div> 
+        </section> 
 
     );
 }

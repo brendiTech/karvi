@@ -6,7 +6,7 @@ import Instagram from '../images/Instagram.svg'
 
 const Footer = () => {
     return(
-        <div className="backfooter">
+        <footer className="backfooter">
             <div className="footer">
                 <div className="icons">
                     <img src={LogoWithe} alt="Logo"/>
@@ -45,7 +45,7 @@ const Footer = () => {
             <div className="divbottom">
                     <h3>Termos e Condições-Política de Privacidade</h3>
             </div>
-        </div>
+        </footer>
 
     );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CarrosVenda = () => {
     return(
-        <div className="carrosvenda">
+        <section className="carrosvenda">
             <div className="novos">
                 <h2>Carros novos à venda</h2>
                 <ul>
@@ -37,7 +37,7 @@ const CarrosVenda = () => {
                 </ul>
                 <button className="btn-blue">Ver mais</button>
             </div>
-        </div>
+        </section>
     );
 }
 
